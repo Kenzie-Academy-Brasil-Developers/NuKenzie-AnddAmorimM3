@@ -9,6 +9,7 @@ export const Form = ({ addNewValues }) => {
   const [value, setValue] = useState("")
   const [category, setCategory] = useState("")
 
+  
   const handleSubmit = (e) => {
     e.preventDefault()
     addNewValues({ title, value, category })

@@ -2,7 +2,12 @@ import styles from "./values.module.scss"
 
 export const Values = ({ values }) => {
     const totalValues = values.reduce((prevValue, currentValue) => {
-        return prevValue + Number(currentValue.value)
+        if(currentValue.category === "Entrada"){
+            return prevValue + Number(currentValue.value)
+        }else if(currentValue.category === "Despesa"){
+            return prevValue - Number(currentValue.value)
+        }
+        return prevValue
     }, 0)
 
     return (
