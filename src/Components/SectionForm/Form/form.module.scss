@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  label {
+    font-family: var(--font-primary);
+    font-weight: 400;
+  }
+  input,
+  select {
+    width: 314px;
+    height: 53px;
+    border-radius: 8px;
+    border: 2px solid var(--gray-color1);
+    background: var(--gray-color1);
+    padding: 16px;
+    font-family: var(--font-primary);
+  }
+  ::placeholder {
+    color: var(--gray-color3);
+    font-family: var(--font-primary);
+    font-weight: 400;
+  }
+
+  p {
+    font-family: var(--font-primary);
+    color: var(--gray-color3);
+    font-weight: 400;
+  }
+  button {
+    display: flex;
+    width: 314px;
+    height: 48px;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+    margin-top: 26px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    color: var(--white-color);
+    cursor: pointer;
+  }
+}

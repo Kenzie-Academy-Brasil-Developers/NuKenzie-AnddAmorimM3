@@ -1,0 +1,11 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 39px 0;
+    ul{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}

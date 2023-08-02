@@ -1,0 +1,55 @@
+.li {
+    background: var(--gray-color1);
+    height: 120px;
+    width: 600px;
+    border-radius: 4px;
+    display: flex;
+  
+    .typeEntry {
+      background-color: var(--secondary-color);
+      width: 3px;
+      height: 100%;
+    }
+  
+    .typeExpense {
+      background-color: var(--gray-color2);
+      width: 3px;
+      height: 100%;
+    }
+  
+    .flexContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  
+    .titleValueContainer {
+      display: flex;
+      justify-content: space-between;
+      width: 590px;
+      padding: 20px;
+  
+      h2 {
+        margin-top: -10px;
+      }
+  
+      h3 {
+        margin-top: 4px;
+      }
+    }
+  
+    
+  
+    button {
+      width: 49px;
+      height: 19px;
+      border-radius: 2px;
+      background-color: var(--gray-color2);
+      color: var(--gray-color4);
+      font-size: 12px;
+      font-weight: 400;
+    }
+  
+    
+  }
+  
